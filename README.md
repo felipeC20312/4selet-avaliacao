@@ -39,22 +39,35 @@ A página foi construída com base em um protótipo, respeitando os elementos vi
 ## 📂 Estrutura do Projeto
 
 ```
-
-├── app/
-├── resources/
-│ ├── views/
-│ │ ├── components/
-│ │ │ └── artigo.blade.php
-│ │ ├── produtos.blade.php
-│ │ └── layout.blade.php
-├── routes/
-│ └── web.php
-├── public/
-│ └── assets/
-│ ├── css/
-│ └── js/
+📁 seu-projeto/
+├── 📁 app/
+├── 📁 bootstrap/
+├── 📁 config/
+├── 📁 database/
+├── 📁 node_modules/
+├── 📁 public/
+├── 📁 resources/
+├── 📁 routes/
+├── 📁 storage/
+├── 📁 tests/
+├── 📁 vendor/
+├── 📄 artisan
+├── 📄 composer.json
+├── 📄 composer.lock
+├── 📄 package.json
+├── 📄 package-lock.json
+├── 📄 phpunit.xml
+├── 📄 README.md
+└── 📄 vite.config.js
 
 ```
+
+app/ → onde ficam os controllers, models, providers etc.
+resources/ → views (Blade), JS, CSS
+routes/ → define rotas web, API, console
+public/ → arquivos acessíveis externamente (como index.php, imagens, etc)
+node_modules/ → dependências do front (gerenciado pelo npm)
+vendor/ → dependências PHP (gerenciado pelo Composer)
 
 ---
 
