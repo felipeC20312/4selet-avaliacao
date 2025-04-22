@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col">
           <div class="card h-100 shadow-sm border-0">
             <div class="overflow-hidden" style="height: 260px;">
-              <img src="/images/${product.image}" alt="${product.name}"
+              <img loading="lazy" src="/images/${product.image}" alt="${product.name}"
                   class="card-img-top" style="height: 100%; width: 100%; object-fit: cover;">
             </div>
             <div class="card-body">

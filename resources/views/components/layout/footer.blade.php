@@ -3,7 +3,7 @@
     <div class="col-12 col-lg-6 d-flex flex-column gap-4">
       <div style="max-width: 505px;">
         <img src="{{ asset('images/lalasia-logo.svg') }}" alt="logo-image.png" class="img-fluid"
-          style="width: 50%" />
+          loading="lazy" style="width: 50%" />
         <p class="paragraph">
           Lalasia is digital agency that help you make better experience iaculis
           cras in.

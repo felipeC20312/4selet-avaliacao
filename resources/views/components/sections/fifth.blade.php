@@ -21,7 +21,7 @@
 
           <div class="testimonials-card">
             <img src="{{ asset('icons/quote-up-icon.svg') }}" alt="quote-up-icon.svg"
-              style="width: 40px; aspect-ratio: 1;">
+              style="width: 40px; aspect-ratio: 1;" loading="lazy">
             <p class="paragraph">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
               dignissim placerat nisi, adipiscing mauris non.</p>
 
@@ -31,14 +31,14 @@
                 <div
                   style="width: 50px; aspect-ratio: 1; border-radius: 100px; object-fit: contain; overflow: hidden;">
                   <img src="{{ asset('images/' . $testimonial['image']) }}"
-                    alt="{{ $testimonial['image'] }}" style="width: 100%;">
+                    alt="{{ $testimonial['image'] }}" style="width: 100%;" loading="lazy">
                 </div>
                 <p class="common-text-primary">{{ $testimonial['name'] }}</p>
               </div>
 
               <div class="d-flex align-items-center"
                 style="gap: 12px; height: fit-content; width: fit-content">
-                <img src="{{ asset('icons/star-icon.svg') }}" alt="star-icon.svg">
+                <img src="{{ asset('icons/star-icon.svg') }}" alt="star-icon.svg" loading="lazy">
                 <p class="common-text-secondary">{{ $testimonial['evaluation'] }}</p>
               </div>
             </div>

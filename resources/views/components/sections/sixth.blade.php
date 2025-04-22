@@ -34,11 +34,13 @@
               style="bottom: -50px; right: 0; z-index: 999;">
               <button id="btn-prev" class="button-type-02"
                 style="width: 70px; aspect-ratio: 1; padding: 21px;">
-                <img src="{{ asset('icons/articles-left-arrow-icon.svg') }}" alt="">
+                <img src="{{ asset('icons/articles-left-arrow-icon.svg') }}" alt=""
+                  loading="lazy">
               </button>
               <button id="btn-next" class="button-type-01"
                 style="width: 70px; aspect-ratio: 1; padding: 21px;">
-                <img src="{{ asset('icons/articles-rigth-arrow-icon.svg') }}" alt="">
+                <img src="{{ asset('icons/articles-rigth-arrow-icon.svg') }}" alt=""
+                  loading="lazy">
               </button>
             </div>
 
@@ -56,7 +58,8 @@
               style="max-height: 260px; box-sizing: border-box; margin-top: 30px; gap: clamp(14px, 1.5vw, 26px);">
               <div style="max-width: 260px; min-width: 110px; aspect-ratio: 1; object-fit: cover;">
                 <img src="{{ asset('images/' . $article['content-image']) }}"
-                  alt="{{ $article['content-image'] }}" style="width: 100%; height: 100%;">
+                  alt="{{ $article['content-image'] }}" style="width: 100%; height: 100%;"
+                  loading="lazy">
               </div>
 
               <div style="max-width: 330px; padding: 26px 0px;">
@@ -68,7 +71,7 @@
                 <div class="d-flex">
                   <div>
                     <img src="{{ asset('images/' . $article['author-image']) }}"
-                      alt="{{ $article['author-image'] }}">
+                      alt="{{ $article['author-image'] }}" loading="lazy">
                   </div>
                   <p class="topic-secondary">{{ $article['author'] }}</p>
                   <p class="d-none d-lg-block"

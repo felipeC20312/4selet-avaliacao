@@ -33,7 +33,7 @@
             <div class="mb-3 mb-lg-0"
               style="display: flex;  max-height: 260px; max-width: 590px; object-fit: contain; overflow: hidden;">
               <img src="{{ asset('images/section-fourth-image-01.svg') }}"
-                alt="section-fourth-image-01" style="width: 100%; height: 100%;">
+                alt="section-fourth-image-01" style="width: 100%; height: 100%;" loading="lazy">
             </div>
           </div>
         </div>
@@ -57,8 +57,8 @@
         </div>
 
         <div>
-          <img src="{{ asset('images/section-fourth-image-02.svg') }}"
-            alt="section-fourth-image-02">
+          <img src="{{ asset('images/section-fourth-image-02.svg') }}" alt="section-fourth-image-02"
+            loading="lazy">
         </div>
       </div>
     </div>

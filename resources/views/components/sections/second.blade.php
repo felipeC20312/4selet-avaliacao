@@ -21,7 +21,8 @@
             <div
               style="background-color: var(--placeholder-color); width: fit-content; height: fit-content; border-radius: 100px;"
               class="p-2 p-lg-3">
-              <img src="{{ asset('icons/' . $benefit['icon']) }}" alt="{{ $benefit['title'] }}">
+              <img src="{{ asset('icons/' . $benefit['icon']) }}" alt="{{ $benefit['title'] }}"
+                loading="lazy">
             </div>
             <h6 class="topic">{{ $benefit['title'] }}</h6>
             <p class="paragraph">{{ $benefit['description'] }}</p>

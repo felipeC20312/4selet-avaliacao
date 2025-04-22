@@ -15,10 +15,10 @@
 
       <img src="{{ asset('images/sketch-img-1.svg') }}" alt=""
         class="img-fluid d-none d-lg-block"
-        style="position: absolute; z-index: 999; top: 1vw; left: 1vw; width: 30%;">
+        style="position: absolute; z-index: 999; top: 1vw; left: 1vw; width: 30%;" loading="lazy">
       <img src="{{ asset('images/sketch-img-2.svg') }}" alt=""
         class="img-fluid d-none d-lg-block"
-        style="position: absolute; z-index: 999; top: 80px; right: 15vw; width: 5%;">
+        style="position: absolute; z-index: 999; top: 80px; right: 15vw; width: 5%;" loading="lazy">
     </div>
 
     <div
@@ -27,7 +27,7 @@
       <div class="input-form d-flex justify-content-between align-items-center"
         style="max-width: 810px; width: 100%; background-color: var(--screen-color); padding: clamp(8px, 1vw, 16px); box-sizing: border-box;">
         <div class="d-flex gap-3 align-items-center" style="flex: 1;">
-          <img src="{{ asset('icons/search-normal-icon.svg') }}" alt="">
+          <img src="{{ asset('icons/search-normal-icon.svg') }}" alt="" loading="lazy">
           <input type="text" id="search-input" placeholder="Search Property" class="paragraph"
             style="border: none; background: transparent; outline: none; width: 100%;">
         </div>
@@ -37,7 +37,7 @@
       </div>
 
     </div>
-    <img src="{{ asset('images/image-01.svg') }}" alt="search-icon.png">
+    <img src="{{ asset('images/image-01.svg') }}" alt="search-icon.png" loading="lazy">
 
     <div id="search-results" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-5"></div>
   </div>

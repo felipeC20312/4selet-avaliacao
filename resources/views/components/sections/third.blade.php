@@ -20,7 +20,7 @@
           <div class="d-flex justify-content-center align-items-center mb-2"
             style="max-width: 395px; aspect-ratio: 1; overflow: hidden">
             <img src="{{ asset('images/' . $product['image']) }}" alt="{{ $product['name'] }}"
-              style="width: 100%; height: 100%; object-fit: cover">
+              style="width: 100%; height: 100%; object-fit: cover" loading="lazy">
           </div>
           <h6 class="paragraph">{{ $product['tag'] }}</h6>
           <p class="topic">{{ $product['name'] }}</p>
