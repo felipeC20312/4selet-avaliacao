@@ -1,0 +1,203 @@
+/* @import "tailwindcss"; */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+
+@import url("./components/benefit-card.css");
+@import url("./components/testimonials-card.css");
+@import url("./components/buttons.css");
+@import url("./components/input-form.css");
+
+@import url("./pages/home.css");
+
+@import url("./sections/fourth.css");
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* ===== Custom Fonts ===== */
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../../public/fonts/EudoxusSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --text-color: #000000;
+  --screen-color: #ffffff;
+  --paragraph-color: #afadb5;
+  --primary-color: #5a8481;
+  --secondary-color: #ffb23f;
+  --line-color: #f3f3f3;
+  --placeholder-color: #f9f9f9;
+  --drak-gradiend-color: #1514119f;
+}
+
+/* ===== CSS RESET ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "EudoxusSans", sans-serif !important;
+  color: var(--text-color);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ===== Custom Classes ===== */
+.reative-margin {
+  margin-top: clamp(2rem, 1vw, 6rem);
+}
+
+.reative-margin-b {
+  margin-bottom: clamp(30px, 3vw, 114px);
+}
+
+.line-clamp-1 {
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.paragraph {
+  font-size: clamp(14px, 1.5vw, 18px);
+  color: var(--paragraph-color);
+}
+
+.section-flag {
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.common-text-primary {
+  font-size: clamp(18px, 1.5vw, 20px);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.common-text-secondary {
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.title-primary {
+  font-size: clamp(26px, 5vw, 64px);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.title-secondary {
+  font-size: clamp(24px, 4vw, 44px);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.topic {
+  font-size: clamp(16px, 3vw, 24px);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.topic-secondary {
+  font-size: clamp(12px, 1vw, 16px);
+  font-weight: bold;
+  color: var(--text-color);
+}

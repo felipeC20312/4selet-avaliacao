@@ -1,0 +1,19 @@
+.button-type-01 {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--screen-color);
+  font-weight: 500;
+}
+
+.button-type-02 {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--screen-color);
+  color: var(--primary-color);
+  font-weight: 500;
+}

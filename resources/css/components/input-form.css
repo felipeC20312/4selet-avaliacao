@@ -1,0 +1,10 @@
+.input-form {
+  position: relative;
+}
+
+@media (min-width: 950px) {
+  .input-form {
+    position: absolute;
+    top: -50px;
+  }
+}

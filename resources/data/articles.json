@@ -1,0 +1,48 @@
+{
+  "articles": {
+    "article01": {
+      "id": 1,
+      "tag": "Tips and Trick",
+      "title": "Create Cozy Dinning Room Vibes",
+      "resume": "Decorating with neutrals brings balance to the dining room. With eclectic decoration on the sides, Caruso Dining Table and Cyrillo Dining Chairs elevate the tonal base of the room. The modern furniture set gives personality to any space in all types of architecture. The wide volume enables everyone to sit back and relax, be it in the dining room, conference, or office.",
+      "author": "By Jerremy Jean",
+      "author-image": "article-owner-image-01.svg",
+      "content-image": "article-content-image-01.svg",
+      "creation-date": "Friday, 1 April 2022",
+      "status": "active"
+    },
+    "article02": {
+      "id": 2,
+      "tag": "Tips and Trick",
+      "title": "6 ways to give your home minimalistic vibes",
+      "resume": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
+      "author": "By Jerremy Jean",
+      "author-image": "article-owner-image-02.svg",
+      "content-image": "article-content-image-02.svg",
+      "creation-date": "Friday, 1 April 2022",
+      "status": "inactive"
+    },
+    "article03": {
+      "id": 3,
+      "tag": "Design Inspiration",
+      "title": "How to make your interiors cooler and more stylish",
+      "resume": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
+      "author": "By Michaela Augus",
+      "author-image": "article-owner-image-03.svg",
+      "content-image": "article-content-image-03.svg",
+      "creation-date": "Friday, 1 April 2022",
+      "status": "inactive"
+    },
+    "article04": {
+      "id": 4,
+      "tag": "Tips and Trick",
+      "title": "Elements to add character to your space",
+      "resume": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .",
+      "author": "By Kim Gurameh",
+      "author-image": "article-owner-image-04.svg",
+      "content-image": "article-content-image-04.svg",
+      "creation-date": "Friday, 1 April 2022",
+      "status": "inactive"
+    }
+  }
+}

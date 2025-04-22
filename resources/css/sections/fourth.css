@@ -1,0 +1,14 @@
+@media (max-width: 950px) {
+  .stats {
+    order: -1;
+    margin-top: 30px;
+  }
+
+  .main-image {
+    order: 1;
+  }
+
+  .side-image {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,8 @@
+.benefit-card {
+  max-width: 395px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 26px;
+  background-color: var(--screen-color);
+  filter: drop-shadow(5px 5px 100px #00000008);
+}

@@ -1,0 +1,11 @@
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+@media (min-width: 950px) {
+  .section-wrapper {
+    gap: 180px;
+  }
+}

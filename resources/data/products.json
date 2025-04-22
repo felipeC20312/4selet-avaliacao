@@ -1,0 +1,60 @@
+{
+  "products": {
+    "product01": {
+      "id": 1,
+      "tag": "Chair",
+      "name": "White Aesthetic Chair",
+      "description": "Combination of wood and wool",
+      "value": 63.47,
+      "image": "white-aesthetic-chair.svg"
+    },
+    "product02": {
+      "id": 2,
+      "tag": "Lamp",
+      "name": "Bardono Smart Lamp",
+      "description": "Easy to use with bluetooth connection",
+      "value": 62.23,
+      "image": "bardono-smart-lamp.svg"
+    },
+    "product03": {
+      "id": 3,
+      "tag": "Sofa",
+      "name": "Sofa Empuk Banget",
+      "description": "Using kapuk randu material",
+      "value": 58.39,
+      "image": "sofa-empuk-banget.svg"
+    },
+    "product04": {
+      "id": 4,
+      "tag": "Living Room",
+      "name": "Wooden Bookshelf",
+      "description": "Combination of wood and wool",
+      "value": 63.47,
+      "image": "wooden-bookshelf.svg"
+    },
+    "product05": {
+      "id": 5,
+      "tag": "Chair",
+      "name": "Mindspace Studio Chair",
+      "description": "Combination of wood and wool",
+      "value": 80.51,
+      "image": "mindspace-studio-chair.svg"
+    },
+    "product06": {
+      "id": 6,
+      "tag": "Chair",
+      "name": "Scopic Ltd Chair",
+      "description": "Combination of wood and wool",
+      "value": 120.45,
+      "image": "scopic-ltd-chair.svg"
+    },
+    "product07": {
+      "id": 7,
+      "tag": "Chair",
+      "name": "Behnam Norouzi Chair",
+      "description": "Combination of wood and wool",
+      "value": 78.95,
+      "image": "behnam-norouzi-chair.svg"
+    }
+  }
+}

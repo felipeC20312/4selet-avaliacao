@@ -1,0 +1,9 @@
+@import url("../app.css");
+
+.header {
+  background-color: var(--screen-color);
+  border-bottom: 1px solid var(--line-color);
+  padding: 30px clamp(24px, 4vw, 100px);
+  z-index: 9999;
+  width: 100dvw;
+}

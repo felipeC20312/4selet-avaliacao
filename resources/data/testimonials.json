@@ -1,0 +1,39 @@
+{
+  "testimonials": {
+    "testimonial01": {
+      "id": 1,
+      "name": "Berry Gunawan",
+      "testimonial": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "image": "user-01.svg",
+      "evaluation": 5.0
+    },
+    "testimonial02": {
+      "id": 2,
+      "name": "Leonard Nimoy",
+      "testimonial": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "image": "user-02.svg",
+      "evaluation": 5.0
+    },
+    "testimonial03": {
+      "id": 3,
+      "name": "Robert Downey Jr",
+      "testimonial": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "image": "user-03.svg",
+      "evaluation": 5.0
+    },
+    "testimonial04": {
+      "id": 4,
+      "name": "Cobocannaeru",
+      "testimonial": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "image": "user-05.svg",
+      "evaluation": 5.0
+    },
+    "testimonial05": {
+      "id": 5,
+      "name": "Janne Cooper",
+      "testimonial": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "image": "user-04.svg",
+      "evaluation": 5.0
+    }
+  }
+}

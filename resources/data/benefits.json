@@ -1,0 +1,22 @@
+{
+  "benefits": {
+    "benefit01": {
+      "id": 1,
+      "title": "Many Choices",
+      "description": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "icon": "many-choices-icon.svg"
+    },
+    "benefit02": {
+      "id": 2,
+      "title": "Fast and On Time",
+      "description": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "icon": "fast-and-on-time-icon.svg"
+    },
+    "benefit03": {
+      "id": 3,
+      "title": "Affordable Price",
+      "description": "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+      "icon": "affordable-price.svg"
+    }
+  }
+}
