@@ -1,10 +1,6 @@
 @props(['articles'])
 
-<script>
-  window.articlesData = @json(array_values($articles));
-</script>
-
-<section>
+<section id="sixth-section">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 d-flex flex-column justify-content-between" style="">
@@ -91,3 +87,7 @@
       </button>
     </div>
 </section>
+
+<script>
+  window.articlesData = @json(array_values($articles));
+</script>

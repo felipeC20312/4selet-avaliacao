@@ -1,6 +1,6 @@
 @props(['testimonials'])
 
-<section>
+<section id="fifth-section">
   <div class="container">
     <div class="col-12 d-flex flex-column align-items-center justify-content-center">
       <div class="text-center" style="max-width: 650px">
@@ -19,7 +19,7 @@
       @foreach ($testimonials as $testimonial)
         <div class="swiper-slide">
 
-          <div class="testimonials-card">
+          <div class="testimonials-card" style="gap: 20px">
             <img src="{{ asset('icons/quote-up-icon.svg') }}" alt="quote-up-icon.svg"
               style="width: 40px; aspect-ratio: 1;" loading="lazy">
             <p class="paragraph">Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
@@ -33,13 +33,14 @@
                   <img src="{{ asset('images/' . $testimonial['image']) }}"
                     alt="{{ $testimonial['image'] }}" style="width: 100%;" loading="lazy">
                 </div>
-                <p class="common-text-primary">{{ $testimonial['name'] }}</p>
+                <p class="common-text-primary" style="padding: 0; margin: 0;">
+                  {{ $testimonial['name'] }}</p>
               </div>
 
-              <div class="d-flex align-items-center"
-                style="gap: 12px; height: fit-content; width: fit-content">
+              <div class="d-flex align-items-center" style="gap: 12px;">
                 <img src="{{ asset('icons/star-icon.svg') }}" alt="star-icon.svg" loading="lazy">
-                <p class="common-text-secondary">{{ $testimonial['evaluation'] }}</p>
+                <p class="common-text-secondary" style="padding: 0; margin: 0;">
+                  {{ $testimonial['evaluation'] }}</p>
               </div>
             </div>
           </div>

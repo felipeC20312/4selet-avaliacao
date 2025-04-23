@@ -1,6 +1,6 @@
 @props(['benefits'])
 
-<section>
+<section id="second-section">
   <div class="container">
     <div class="row">
       <div class="col-12">

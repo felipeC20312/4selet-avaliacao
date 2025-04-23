@@ -1,6 +1,6 @@
 @props(['products'])
 
-<section>
+<section id="third-section">
   <div class=" container">
     <div class="col-12 d-flex flex-column align-items-center justify-content-center">
       <div class="text-center" style="max-width: 650px">

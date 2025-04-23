@@ -7,7 +7,7 @@
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
       aria-label="Toggle navigation">
-      <img src="{{ asset('icons/menu.svg') }}" alt="menu" loading="lazy">
+      <img src="{{ asset('icons/menu-icon.svg') }}" alt="menu-icon" loading="lazy">
     </button>
 
     <div class="collapse navbar-collapse justify-content-between align-items-center"
@@ -15,16 +15,16 @@
 
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+          <a class="nav-link" href="#third-section">Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#first-section">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Article</a>
+          <a class="nav-link" href="#sixth-section">Article</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#fourth-section">About Us</a>
         </li>
       </ul>
 
