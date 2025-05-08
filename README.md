@@ -1,4 +1,4 @@
-# 4selet-avaliacao
+# Solução Laravel 12 + Bootstrap
 
 Este projeto é uma landing page moderna e responsiva, construída com Laravel no backend e Bootstrap 5 no frontend. A proposta foi transformar um protótipo visual em uma interface funcional, simulando dados com PHP e aplicando boas práticas de performance e componentização.
 
